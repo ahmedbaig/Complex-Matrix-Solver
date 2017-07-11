@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+button{
+  display: block;
+}
+#rowColoumnA, #rowColoumnB{
+  border: 1px solid red;
+  border-radius: 5px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+#header{
+  padding-top: 20px;
+  background-color: #96281B;
+  h1{
+    color: #dddddd;
+  }
+}
+
+#error{
+  float:right;
+  width: 10%;
+  background-color: #00B16A;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  transition: all 2s ease-in-out;
+  #catch{
+    float: left;
+  }
+}
+
+.hidden{
+  display: none;
+}
+
+.show{
+  display: visible;
+}

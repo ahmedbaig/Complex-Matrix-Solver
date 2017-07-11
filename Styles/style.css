@@ -1,0 +1,55 @@
+/* line 1, style.scss */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 5, style.scss */
+button {
+  display: block;
+}
+
+/* line 8, style.scss */
+#rowColoumnA, #rowColoumnB {
+  border: 1px solid red;
+  border-radius: 5px;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+/* line 15, style.scss */
+#header {
+  padding-top: 20px;
+  background-color: #96281B;
+}
+/* line 18, style.scss */
+#header h1 {
+  color: #dddddd;
+}
+
+/* line 23, style.scss */
+#error {
+  float: right;
+  width: 10%;
+  background-color: #00B16A;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-transition: all 2s ease-in-out;
+          transition: all 2s ease-in-out;
+}
+/* line 30, style.scss */
+#error #catch {
+  float: left;
+}
+
+/* line 35, style.scss */
+.hidden {
+  display: none;
+}
+
+/* line 39, style.scss */
+.show {
+  display: visible;
+}
+
+/*# sourceMappingURL=style.css.map */

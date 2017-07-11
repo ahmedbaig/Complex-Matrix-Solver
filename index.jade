@@ -1,0 +1,37 @@
+//output: index.html
+doctype html
+html 
+  head
+    title Matrix multiplication
+    link(href="Styles/style.css" rel="stylesheet" type="text/css")
+    <!--Main styles-->
+  body
+    #header
+      <!-- Header -->
+      h1 For loops complex multiplication solver
+    #error.hidden
+      <!-- Error Box -->
+      h3#catch
+    #inputs
+      <!-- Inputs -->
+      #aBox
+        h3 Matrix A
+        input#A1(type="text" placeholder="Rows" required/)
+        span X
+        input#A2(type="text" placeholder="Coloums" required/)
+        span.gap
+      #bBox
+        h3 Matrix B
+        input#B1(type="text" placeholder="Rows" required/)
+        span X
+        input#B2(type="text" placeholder="Coloums" required/)
+        span.gap
+      button(onclick="check()") Submit
+      #rowColoumnA
+        <!--UserMade Boxes-->
+      #rowColoumnB
+        <!--UserMade Boxes-->
+      #answer
+        h3.answer#multiply
+  script(src="JavaScripts/script.js" type="text/javascript")
+  <!--Main script-->      
